@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.ArrayList;
 class Solution {
     public ArrayList solution(String[] name, int[] yearning, String[][] photo) {
-        ArrayList<Number> answer = new ArrayList<>();
+        ArrayList<Integer> answer = new ArrayList<>();
         
         HashMap<String, Integer> map = new HashMap<>();
         for (int i=0; i<name.length; i++){
